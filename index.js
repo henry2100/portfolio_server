@@ -7,10 +7,13 @@ const dotenv = require('dotenv');
 const userRoutes = require('./routes/userRouter');
 const contactMssgsRoutes = require('./routes/contactMssgRouter');
 const skillsRoutes = require('./routes/skillRouter');
+const serviceRoutes = require('./routes/serviceRouter');
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3002;
+
+console.log('Port:', process.env.PORT);
 
 // Function to set up middleware
 const configureMiddleware = (app) => {
@@ -64,6 +67,7 @@ configureMiddleware(app);
 app.use('/api/users', userRoutes);
 app.use('/api/contact_requests', contactMssgsRoutes);
 app.use('/api/skills', skillsRoutes);
+app.use('/api/services', serviceRoutes);
 
 // Global error handler
 app.use(errorHandler);

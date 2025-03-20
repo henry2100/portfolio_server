@@ -80,6 +80,7 @@ const updateSkill = async (req, res) => {
                 message: 'Skill updated successfully'
             })
         }
+        return res.status(404).send({ message: `Invalid! No Skill with the selected id:, ${id}`});
     }catch(error){
         return res.status(500).send({message: error.message});
     }
