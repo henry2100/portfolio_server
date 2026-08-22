@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "image": ""
+  },
+  "about": {
+    "images": []
+  },
+  "cv": {
+    "url": "https://res.cloudinary.com/dtegg4r9t/raw/upload/v1786978917/portfolio/cv/henry_adedugba_cv.pdf",
+    "fileName": "henry_adedugba_cv.pdf"
+  },
+  "projects": [
+    {
+      "title": "Multi-Vendor Marketplace",
+      "projectCategory": [
+        "Fullstack - MERN application"
+      ],
+      "technologies": [
+        "React Js",
+        "Node Js",
+        "Express Js",
+        "Mongo DB",
+        "TailwindCSS",
+        "Redux"
+      ],
+      "projectDesc": "A multi-vendor marketplace platform enabling multiple sellers to list, manage, and sell products through a unified storefront with vendor dashboards and order management.",
+      "projectLink": "https://multi-vendor-app-three.vercel.app/",
+      "projStatus": true
+    },
+    {
+      "title": "Panthera",
+      "projectCategory": [
+        "Single page frontend web application - MERN application"
+      ],
+      "technologies": [
+        "Mongo DB",
+        "Express Js",
+        "React Js",
+        "Node Js",
+        "Typescript",
+        "TailwindCSS",
+        "Redux",
+        "Axios"
+      ],
+      "projectDesc": "A sleek single-page brand showcase for Panthera, featuring modern design, smooth animations, and responsive layouts across all devices.",
+      "projectLink": "https://www.pantheraicl.com",
+      "projStatus": true
+    },
+    {
+      "title": "Mini E-Commerce Web Application",
+      "projectCategory": [
+        "Fullstack - MERN application"
+      ],
+      "technologies": [
+        "Mongo DB",
+        "Express Js",
+        "React Js",
+        "Node Js",
+        "Typescript",
+        "TailwindCSS",
+        "Redux",
+        "Axios"
+      ],
+      "projectDesc": "A full-featured e-commerce platform with product listings, shopping cart, user authentication, and secure checkout built with the MERN stack.",
+      "projectLink": "https://ecommerce-client-rosy.vercel.app",
+      "projStatus": true
+    },
+    {
+      "title": "Asoebi By Nandari",
+      "projectCategory": [
+        "Fullstack - MERN application"
+      ],
+      "technologies": [
+        "Mongo DB",
+        "Express Js",
+        "React Js",
+        "Node Js",
+        "Typescript",
+        "TailwindCSS",
+        "Redux",
+        "Axios"
+      ],
+      "projectDesc": "An elegant marketplace for African fashion and asoebi styles, enabling users to browse, select, and order traditional attire with a seamless experience.",
+      "projectLink": "https://www.nandari.com",
+      "projStatus": true
+    }
+  ]
+}
+
